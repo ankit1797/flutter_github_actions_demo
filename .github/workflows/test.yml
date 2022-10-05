@@ -52,8 +52,8 @@ jobs:
     runs-on: ubuntu-latest
 
     defaults:
-      run:
-        working-directory: fast_shopping_bloc
+      run: mkdir github_actions_demo
+        working-directory: github_actions_demo
 
     steps:
       - name: Checkout
